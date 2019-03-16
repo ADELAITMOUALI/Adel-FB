@@ -24,7 +24,7 @@ check = check()                                   #
 ###################################################
 
 parse = optparse.OptionParser("""
-Usage: python ./FB-BrForAttack.py -T [TARGET]<Email/ID> -W <Wordlist file>
+Usage: python ./Adel-FB.py -T [TARGET]<Email/ID> -W <Wordlist file>
 -------------
 OPTIONS:
        |
@@ -36,9 +36,9 @@ OPTIONS:
 Examples:
         |
      |--------
-     | python FB-BrForAttack.py -t victim@gmail.com -w /usr/share/wordlists/rockyou.txt
+     | python Adel-FB.py -t victim@gmail.com -w /usr/share/wordlists/rockyou.txt
      |--------
-     | python FB-BrForAttack.py -t 100001013078780 -w C:\Users\Me\Desktop\wordlist.txt
+     | python Adel-FB.py -t 100001013078780 -w C:\Users\Me\Desktop\wordlist.txt
      |--------
 
 """)
